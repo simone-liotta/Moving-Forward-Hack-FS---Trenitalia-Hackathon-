@@ -1,6 +1,6 @@
 %%          MOVING FORWARD HACK 2017 by TRENITALIA e CODEMOTION
 %                  LUISS ENLABS, Via Marsala 29/h, Roma
-%            TEAM composto da ADRIANO ZOLLINO e SIMONE LIOTTA
+%                             SIMONE LIOTTA
 %
 % Soluzione proposta nell'ambito della Challenge 1: CUSTOMER EXPERIENCE,
 %                  'Check in, check out a bordo treno'.
