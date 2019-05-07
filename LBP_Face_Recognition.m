@@ -2,7 +2,7 @@ function bool = LBP_Face_Recognition(faccia_test)
 
 cd P_01
 
-percorso ='C:\Users\simo_\Desktop\Check In FS\P_01';
+percorso ='C:\';
 fileFolder = fullfile(percorso);
 dirOutput = dir(fullfile(fileFolder,'*.jpg'));
 list = struct2cell((dirOutput));
@@ -65,7 +65,7 @@ end
 
 %vettore delle etichette di apprendimento [-1,+1] infatti linspace genera
 %un vettore lineare casuale della lunghezza di lq_list nell'intervallo
-%[-1,-1] e nell'intervallo [+1,+1] per hq_list. Ottengo cioè un vettore con
+%[-1,-1] e nell'intervallo [+1,+1] per hq_list. Ottengo cioÃ¨ un vettore con
 %tanti 1 quante sono le immagini HQ e tanti -1 quante sono le immagini LQ
 trainI = features_Vect;
 %trainL = cell(1);
