@@ -1,4 +1,4 @@
-function bool = LBP_Face_Recognition(faccia_test)
+function bool = LBP_Face_Recognition()
 
 cd P_01
 
